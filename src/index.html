@@ -2,13 +2,47 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>CATPHER</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+      <header class="header" id="header">
+        <img src="img/CatPHER.png" alt="CATPHER" id="logo" >
+      </header>
+      <section class="container" >
+        <p id="disclaimer">Este sitio NO FUE programado por una Karen. Confía, camarada.</p>
+      <article class="description">
+        <p id="description">Este sitio está pensado especialmente para aquellos gatos que están colaborando en el evento Operación Miau. 
+        Si eres parte de esto, comprenderás muy bien de qué se trata. 
+        Si necesitas comunicarte con tus camaradas de forma segura sin que ninguna 
+        Karen ni ningún Karen macho se entrometan, esta es una excelente forma de enviar mensajes encriptados.</p>
+      </article>
+      </section>      
+      <form class="form" id="form" name="form">
+          <h3>Mensaje que deseas cifrar o descifrar:</h3>
+          <br>
+          <textarea class="textarea" name="sourceText" id="mensaje" placeholder="Escribe aquí el comentario a cifrar o descifrar" cols="50" rows="5" autocomplete="off" spellcheck="false"
+          value=""></textarea>
+          <br>
+          <p>Escribe un número para elegir el desplazamiento de las letras. Este será el código que le darás a tu camarada para que lo descifre</p>
+          <p><input type="number" id="desplazamiento" size="4" min="1"/></p>
+          <button type="button" id="encrypt" value="Cifrar">Cifrar</button>
+          <button type="button" id="decrypt" value="Descifrar">Descifrar</button>
+          <br>
+          <h3>Mensaje cifrado/descifrado</h3>
+          <textarea class="textarea" type="text" id="mensaje2" placeholder="Mensaje cifrado / descifrado" cols="50" rows="5"></textarea>
+      </form>
+      <div class="section">
+        <img class="right" id="cattonGatinson" src="img/gatoBacan.jpg" width="200"/>
+      </div>
+      <div><p class="left">Recomendado por el Profesor Catton Gatinson, Master en Comunicación Gatuna y Doctor en cifrado Gaticesar de la Universidad de Michigan.</p></div>
+      <footer class="footer">
+          <p>Copyright 2021 - Catpher</p>
+          <p>NON HUMAN PROGRAMMING</p>
+      </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
