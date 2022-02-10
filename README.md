@@ -22,3 +22,4 @@ Llamé a los elementos de texto y desplazamiento a través de los botones de htm
 ## CSS
 Estudié los selectores de CSS y luego comencé a aplicar el diseño al sitio. Aprendí sobre el modelo de caja y lo apliqué a mi sitio.
 
+[Vistar la página](https://mpazjelvez.github.io/SCL019-cipher/src/index.html)
